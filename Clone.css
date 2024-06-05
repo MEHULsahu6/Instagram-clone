@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.main-box {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  background-color: #f2ebe3;
+  justify-content: center;
+  align-items: center;
+}
+.image {
+  background-image: url("WhatsApp\ Image\ 2024-06-01\ at\ 22.30.46_3f2d8280.jpg");
+  height: 400px;
+  width: 300px;
+  background-size: cover;
+  border-radius: 20px 0px 0px 20px;
+}
+.mug {
+  height: 400px;
+  width: 350px;
+  background-color: white;
+
+  border-radius: 0px 20px 20px 0px;
+}
+.di{
+    font-family: fantasy;
+    font-size: large;
+    padding: 30px;
+}
+.whh{
+    width:200px ;
+    font-family: cursive;
+    font-size: 30px;
+    padding-left:20px ;
+}
+.para{
+    font-family: monospace;
+    font-size: 17px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.price{
+    display: flex;
+    flex-direction: row;
+    font-family: fantasy;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.pr2{
+    font-size: xx-large;
+}
+.pr1{
+    font-size: large;
+    position: relative;
+    top: 13px;
+    left: 20px;
+}
+.logo{
+    height: 50px;
+    width: 300px;
+    background-color: #3c8067;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
